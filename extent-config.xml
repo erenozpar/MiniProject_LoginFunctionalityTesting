@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+<configuration xmlns="http://www.w3.org/2001/XMLSchema" version="1.0" label="configurationType">
+    <theme>light</theme>
+    <encoding>UTF-8</encoding>
+    <protocol>https</protocol>
+    <timelineEnabled>true</timelineEnabled>
+    <documentTitle>Automation Test Report</documentTitle>
+    <reportName>My Project Test Report</reportName>
+    <timeStampFormat>yyyy-MM-dd HH:mm:ss</timeStampFormat>
+    <enableDashboard>true</enableDashboard>
+    <logStatusColors>
+        <info>#2196F3</info>
+        <pass>#4CAF50</pass>
+        <fail>#F44336</fail>
+        <skip>#FFC107</skip>
+        <warning>#FF9800</warning>
+    </logStatusColors>
+    <!-- custom javascript -->
+    <scripts>
+        <![CDATA[
+                $(document).ready(function() {
+
+                });
+            ]]>
+    </scripts>
+
+    <!-- custom styles -->
+    <styles>
+        <![CDATA[
+
+            ]]>
+    </styles>
+</configuration>
+</extentreports>
